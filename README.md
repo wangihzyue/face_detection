@@ -15,7 +15,7 @@ There are 50 pictures in the dataset. picture_preprocess.ipynb is used for modif
 
 startert.ipynb is used for classifying masked or unmasked faces and for face recognition. For classifying, extract hog feature and classify with k neighbor algorithm. Then, I use compare_faces method in face recognition package and use k neighbor algorithm for face recognition respectively. The results of compare_faces method and k neighbor algorithm are shown in their corresponding part respectively.
 
-change the `maskSet`string for directory in codes into `unmaskedSet` string can change the dataset from masked faces into unmasked faces dataset.
+change the `unmaskedSet`string for directory in codes into `maskSet` string can change the dataset from masked faces into unmasked faces dataset.
 
 - key parameters in startert.ipynb:
 

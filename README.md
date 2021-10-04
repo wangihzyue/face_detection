@@ -33,7 +33,7 @@ For both method in face recognition, with `know_tolerance = 0.4` and `known_thre
 
 Use Siamese network for face recognition. Compare the test picture with known pictures to calculate average distance. If the minimum distance is larger than 0.6, then it will be classified into unknown person. Otherwise, choose the person with minimum distance as the recognized person.
 
-![aa](C:\Users\dell\Desktop\aa.png)
+![aa](./picture/aa.png)
 
 ### Result
 
@@ -45,18 +45,18 @@ Try to use GAN for face recognition, but the result accuracy is really bad. Even
 
 discriminator:
 
-![discriminator](C:\Users\dell\Desktop\discriminator.png)
+![discriminator](./picture/discriminator.png)
 
 generator (fake label may be 1,2,3,...,10):
 
-![generator](C:\Users\dell\Desktop\generator.png)
+![generator](./picture/generator.png)
 
 The result of classification is not good. This model needs better improvement.
 
 Generator result:
 
-![pic1](C:\Users\dell\Desktop\pic1.png)
+![pic1](./picture/pic1.png)
 
-![pic2](C:\Users\dell\Desktop\pic2.png)
+![pic2](./picture/pic2.png)
 
-![pic3](C:\Users\dell\Desktop\pic3.png)
+![pic3](./picture/pic3.png)

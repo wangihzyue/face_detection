@@ -67,4 +67,4 @@ Generator result:
 
 ### Reason for low performance of GAN
 
-The reason for GAN bad performance may be the low quality of generated pictures. Then the discriminator cannot extract the special features for known people and extract the wrong features.
+The reason for GAN bad performance may be the low quality of generated pictures. Then the discriminator cannot extract the special features for known people and then extract the wrong features.

@@ -59,8 +59,12 @@ Generator result:
 
 ### Use GAN + CNN for face recognition
 
-Change the framework to let GAN for recognizing whether the person is known and if recorded, use CNN for recognizing recorded person. The accuracy is not good for GAN. For CNN, accuracy for train set is about 0.87 and accuracy for test set is about 0.63. The reason for GAN bad performance may be the low quality of generated pictures. Then the discriminator cannot extract the special features for known people and extract the wrong features.
+Change the framework to let GAN for recognizing whether the person is known and if recorded, use CNN for recognizing recorded person. The accuracy is not good for GAN. For CNN, accuracy for train set is about 0.87 and accuracy for test set is about 0.63. 
 
 Generator result:
 
 ![pic4](./picture/pic4.png) ![pic5](./picture/pic5.png) ![pic6](./picture/pic6.png)
+
+### Reason for low performance of GAN
+
+The reason for GAN bad performance may be the low quality of generated pictures. Then the discriminator cannot extract the special features for known people and extract the wrong features.

@@ -55,8 +55,11 @@ The result of classification is not good. This model needs better improvement.
 
 Generator result:
 
-![pic1](./picture/pic1.png)
+![pic1](./picture/pic1.png) ![pic2](./picture/pic2.png) ![pic3](./picture/pic3.png)
 
-![pic2](./picture/pic2.png)
+### Use GAN + CNN for face recognition
 
-![pic3](./picture/pic3.png)
+Change the framework to let GAN for recognizing whether the person is known and if recorded, use CNN for recognizing recorded person. The accuracy is not good for GAN. For CNN, accuracy for train set is about 0.87 and accuracy for test set is about 0.63.
+
+Generator result:
+![pic4](./picture/pic4.png) ![pic5](./picture/pic5.png) ![pic6](./picture/pic6.png)

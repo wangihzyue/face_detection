@@ -37,7 +37,7 @@ Use Siamese network for face recognition. Compare the test picture with known pi
 
 ### Result
 
-With epoch = 50 and batch_size = 30, the face recognition accuracy can reach 0.75. frr is about 0.14 and far is about 0.24. Larger epoch may enable for better result.
+With epoch = 50 and batch_size = 30, the face recognition accuracy can reach 0.75. frr is about 0.14 and far is about 0.24. Larger epoches enable to get better result.
 
 ### Use GAN for face recognition
 

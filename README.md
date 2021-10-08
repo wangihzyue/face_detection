@@ -27,7 +27,7 @@ change the `unmaskedSet`string for directory in codes into `maskSet` string can 
 
 For classifying masked and unmasked faces, its about 1.0 accuracy with k neighbor algorithm.
 
-For both method in face recognition, with `know_tolerance = 0.4` and `known_threshold = 0.1`, the accuracy is about 0.83, frr is about 0.2, far is about 0.08 for unmasked faces dataset. the accuracy is about 0.79, frr is about 0.1, far is about 0.12 for masked faces fataset.
+For both method in face recognition for test data set, with `know_tolerance = 0.4` and `known_threshold = 0.1`, the accuracy is about 0.83, frr is about 0.2, far is about 0.08 for unmasked faces dataset. the accuracy is about 0.79, frr is about 0.1, far is about 0.12 for masked faces fataset.
 
 ### Further Development
 
@@ -37,7 +37,7 @@ Use Siamese network for face recognition. Compare the test picture with known pi
 
 ### Result
 
-With epoch = 50 and batch_size = 30, the face recognition accuracy can reach 0.75. frr is about 0.14 and far is about 0.24. Larger epoches enable to get better result.
+With epoch = 50 and batch_size = 30, the face recognition accuracy for test data set can reach 0.79. frr is about 0.14 and far is about 0.24. Larger epoches enable to get better result.
 
 ### Use GAN for face recognition
 

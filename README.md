@@ -41,7 +41,7 @@ With epoch = 50 and batch_size = 30, the face recognition accuracy for test data
 
 ### Use GAN for face recognition
 
-Try to use GAN for face recognition, but the result accuracy is really bad. Even though I have changed the learning rate, modified the batch size and adjusted net framework, the loss of discriminator decrease too fast and the generator's loss keeps high. frr and far are really high. It may need better framework.
+Try to use GAN for face recognition. For the test set, the result accuracy is about 0.58. But the precision can be 0.82. Even though I have changed the learning rate, modified the batch size and adjusted net framework, the loss of discriminator decrease too fast and the generator's loss keeps high. 
 
 discriminator:
 
@@ -50,8 +50,6 @@ discriminator:
 generator (fake label may be 1,2,3,...,10):
 
 ![generator](./picture/generator.png)
-
-The result of classification is not good. This model needs better improvement.
 
 Generator result:
 
